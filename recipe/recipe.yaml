@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.0"
+  version: "0.6.1"
 
 package:
   name: wire-memory
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/w/wire-memory/wire_memory-${{ version }}.tar.gz
-    sha256: 9662ed54f52180f865f31cdfd1a48c14fa16aeb79acb92c23e3c23c0886c39c5
+    sha256: eb0256b005d7e6c1cb220ea8ac48a181c84a049ae63e1e380de90ddc9c2592c2
 
 build:
   number: 0
