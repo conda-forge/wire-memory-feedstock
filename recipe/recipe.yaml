@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.1"
+  version: "0.7.0"
 
 package:
   name: wire-memory
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/w/wire-memory/wire_memory-${{ version }}.tar.gz
-    sha256: eb0256b005d7e6c1cb220ea8ac48a181c84a049ae63e1e380de90ddc9c2592c2
+    sha256: 706989be945775d813228c685565d62e4a2204ef0fb4a86f5664c5d25dabbc0c
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
     - uv-build
   run:
     - python >=${{ python_min }}
-    - wiredb >=0.6.0,<0.7.0
+    - wiredb >=0.7.0,<0.8.0
 
 tests:
   - python:
